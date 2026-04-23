@@ -1,0 +1,37 @@
+-
+	const opciones = [
+		{ texto: "Opcion 1 corta", imagen: "https://placehold.co/256x128" },
+		{ texto: "Opcion 2 con mucho texto", imagen: "https://placehold.co/128x256" },
+		{ texto: "Opcion 3", imagen: "https://placehold.co/128x96" },
+		{ texto: "Opcion 4, texto bastante largo para probar el layout de la opción", imagen: "https://placehold.co/128" }
+	]
+
+doctype html
+html(lang="es")
+	head
+		link(rel="stylesheet", href="./style.styl")
+	body
+		#pagina
+			header#encabezado
+				.logo: img(
+					src="https://www.upn.edu.pe/sites/default/files/logo-posgrado-upn.svg"
+				)
+				.grupo.derecha
+					strong TIEMPO
+					span.tiempo 01:04
+
+			main#principal
+				.panel.inverso
+					h2 ¿pregunta?
+					//- h2 ¿CUÁL ES EL PRINCIPAL OBJETIVO DE ESTUDIAR UN POSGRADO?
+
+				.panel
+					p SELECCIONA SOLO #[strong UNA RESPUESTA]
+
+				.opciones
+					each opcion, index in opciones
+						button.opcion(type=button)
+							span= String.fromCharCode(65 + index) + ". " + opcion.texto
+							img(src=opcion.imagen, alt="")
+
+		script(src="./script.js")

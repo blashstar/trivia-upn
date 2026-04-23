@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Sharp Grotesk Light 15';
+    src: url('SharpGrotesk-Light15.woff2') format('woff2'),
+        url('SharpGrotesk-Light15.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 15';
+    src: url('SharpGrotesk-Book15.woff2') format('woff2'),
+        url('SharpGrotesk-Book15.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 15';
+    src: url('SharpGrotesk-Bold15.woff2') format('woff2'),
+        url('SharpGrotesk-Bold15.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black 15';
+    src: url('SharpGrotesk-Black15.woff2') format('woff2'),
+        url('SharpGrotesk-Black15.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,29 @@
+doctype html
+html(lang="es")
+	head
+		link(rel="stylesheet", href="./style.styl")
+	body
+		#pagina
+			header#encabezado
+				.logo: img(
+					src="https://www.upn.edu.pe/sites/default/files/logo-posgrado-upn.svg"
+				)
+
+			main#principal
+				.panel
+					h1 ¡ESTUVISTE CERCA!
+					h4 NO TE DETENGAS
+					h3 SIGUE INTENTANDO
+
+				.contenido
+					img(src="https://placehold.co/128")
+
+				button(type="button")
+					span Gracias por participar
+
+			//- footer#pie
+				h3 Gracias por participar
+				a(href="#") Reiniciar
+				button(type="button") Reiniciar
+
+		script(src="./script.js")
