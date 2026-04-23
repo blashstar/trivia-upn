@@ -1,0 +1,890 @@
+[
+	{
+		"pregunta": {
+			"texto": "¿CUÁL ES EL PRINCIPAL OBJETIVO DE ESTUDIAR UN POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "OBTENER UN NUEVO TÍTULO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "DESARROLLAR HABILIDADES PROFESIONALES AVANZADAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CAMBIAR DE TRABAJO INMEDIATAMENTE",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TENER MÁS AÑOS DE ESTUDIO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿CUÁLES DE ESTOS PROGRAMAS PERTENECE A ESTUDIOS DE POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "BACHILLERATO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MAESTRÍA, MBA'S, DIPLOMADOS, PROGRAMAS ESPECIALIZADOS, CURSOS CORTOS, SEGUNDAS ESPECIALIDADES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "DIPLOMADO, PROGRAMAS ESPECIALIZADOS, CURSOS CORTOS Y SEGUNDAS ESPECIALIDADES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MAESTRÍA Y MBA'S",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ BENEFICIO SUELE OFRECER UN POSGRADO A LOS PROFESIONALES?"
+		},
+		"opciones": [
+			{
+				"texto": "DESARROLLO DE LIDERAZGO Y ESPECIALIZACIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MENOS RESPONSABILIDADES LABORALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MENOS HORAS DE TRABAJO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINACIÓN DE EXPERIENCIA LABORAL",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ TIPO DE PROGRAMA PERMITE ESPECIALIZARSE EN UN ÁREA ESPECÍFICA EN MENOR TIEMPO?"
+		},
+		"opciones": [
+			{
+				"texto": "DOCTORADO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MAESTRÍA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "DIPLOMADO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PROGRAMAS ESPECIALIZADOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 3
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ FACTOR ES CLAVE AL ELEGIR UN PROGRAMA DE POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "COLOR DEL CAMPUS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MODALIDAD Y FLEXIBILIDAD",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "UNIFORME INSTITUCIONAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "NÚMERO DE EXÁMENES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿CUÁL DE ESTAS HABILIDADES SUELE FORTALECERSE EN UN POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "LIDERAZGO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "GESTIÓN ESTRATÉGICA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TOMA DE DECISIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TODAS LAS ANTERIORES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 3
+	},
+	{
+		"pregunta": {
+			"texto": "¿ QUÉ MODALIDAD FACILITA ESTUDIAR DESDE CUALQUIER LUGAR MANTENIENDO CLASES EN TIEMPO REAL?"
+		},
+		"opciones": [
+			{
+				"texto": "PRESENCIAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "VIRTUAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "SEMIPRESENCIAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "INTENSIVA",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿CUÁL ES UNA VENTAJA DEL NETWORKING EN UN POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "CONOCER PROFESIONALES DE OTRAS INDUSTRIAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CONSEGUIR DESCUENTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL TIEMPO DE ESTUDIO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ TIPO DE APRENDIZAJE SUELE APLICARSE EN LOS PROGRAMAS DE POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "SOLO TEORÍA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CASOS PRÁCTICOS Y APLICACIÓN REAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "SOLO MEMORIZACIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES SIN INTERACCIÓN",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ ÁREA ES UNA DE LAS MÁS DEMANDADAS EN POSGRADOS ACTUALMENTE?"
+		},
+		"opciones": [
+			{
+				"texto": "GESTIÓN EMPRESARIAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TECNOLOGÍA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "INNOVACIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TODAS LAS ANTERIORES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 3
+	},
+	{
+		"pregunta": {
+			"texto": "¿CUÁL ES UNA VENTAJA DE ESTUDIAR MIENTRAS TRABAJAS?"
+		},
+		"opciones": [
+			{
+				"texto": "APLICAR LO APRENDIDO DE INMEDIATO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR RESPONSABILIDADES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "NO REALIZAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VENTAJA TIENE ESTUDIAR CON CASOS REALES DE EMPRESAS?"
+		},
+		"opciones": [
+			{
+				"texto": "APRENDER ÚNICAMENTE TEORÍA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CONECTAR LA TEORÍA CON SITUACIONES REALES DE NEGOCIO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL CONTENIDO DEL CURSO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ CARACTERIZA A UN PROGRAMA DISEÑADO PARA PROFESIONALES QUE TRABAJAN?"
+		},
+		"opciones": [
+			{
+				"texto": "HORARIOS RÍGIDOS DURANTE EL DÍA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MODALIDAD FLEXIBLE QUE PERMITE ESTUDIAR Y TRABAJAR",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES SOLO PRESENCIALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PROGRAMAS SIN PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VALOR TIENE COMPARTIR CLASES CON PROFESIONALES DE DIFERENTES INDUSTRIAS?"
+		},
+		"opciones": [
+			{
+				"texto": "REDUCIR EL NÚMERO DE EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "AMPLIAR PERSPECTIVAS Y EXPERIENCIAS PROFESIONALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR EL TRABAJO EN EQUIPO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL CONTENIDO DEL PROGRAMA",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ ELEMENTO APORTA MAYOR VALOR A UNA ESCUELA DE POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "DOCENTES CON EXPERIENCIA PROFESIONAL EN SU SECTOR",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MENOS HORAS DE CLASE",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PROGRAMAS SIN EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES SIN INTERACCIÓN",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ FACTOR CONTRIBUYE DIRECTAMENTE A MEJORAR LA EMPLEABILIDAD DE UN PROFESIONAL?"
+		},
+		"opciones": [
+			{
+				"texto": "EVITAR CAPACITACIÓN ADICIONAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR LA EXPERIENCIA LABORAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CAMBIAR CONSTANTEMENTE DE EMPLEO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ACTUALIZACIÓN DE CONOCIMIENTOS Y ESPECIALIZACIÓN",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 3
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ TIPO DE APRENDIZAJE VALORAN LAS EMPRESAS ACTUALMENTE?"
+		},
+		"opciones": [
+			{
+				"texto": "APRENDIZAJE BASADO EN MEMORIZACIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "APRENDIZAJE PRÁCTICO APLICADO A PROBLEMAS REALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES ÚNICAMENTE TEÓRICAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVALUACIONES SIN APLICACIÓN PRÁCTICA",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿POR QUÉ ES IMPORTANTE QUE UN PROGRAMA DE POSGRADO INCLUYA TENDENCIAS DEL MERCADO?"
+		},
+		"opciones": [
+			{
+				"texto": "REDUCE EL TIEMPO DE ESTUDIO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PERMITE APRENDER CONTENIDOS ACTUALIZADOS Y RELEVANTES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINA EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCE LOS PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ HABILIDAD PERMITE ANALIZAR ESCENARIOS Y TOMAR MEJORES DECISIONES EN UNA EMPRESA?"
+		},
+		"opciones": [
+			{
+				"texto": "MEMORIZACIÓN DE CONCEPTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REPETICIÓN DE PROCEDIMIENTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PENSAMIENTO ESTRATÉGICO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TRABAJO INDIVIDUAL",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 2
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ BENEFICIO OFRECE EL APRENDIZAJE COLABORATIVO EN UN POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "REDUCIR LA PARTICIPACIÓN EN CLASE",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "INTERCAMBIAR EXPERIENCIAS CON OTROS PROFESIONALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR PROYECTOS GRUPALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "DISMINUIR EL CONTENIDO DEL CURSO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ PERMITE UN PROGRAMA CON ENFOQUE PRÁCTICO?"
+		},
+		"opciones": [
+			{
+				"texto": "REDUCIR EL NÚMERO DE CLASES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "APLICAR LO APRENDIDO DIRECTAMENTE EN EL TRABAJO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINAR PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 2
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VENTAJA TIENE APRENDER CON DOCENTES LÍDERES EN SU SECTOR?"
+		},
+		"opciones": [
+			{
+				"texto": "CONOCER TENDENCIAS Y EXPERIENCIAS REALES DEL MERCADO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL CONTENIDO ACADÉMICO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINAR TRABAJOS GRUPALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL NÚMERO DE EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ CARACTERIZA A LAS METODOLOGÍAS ACTIVAS DE APRENDIZAJE?"
+		},
+		"opciones": [
+			{
+				"texto": "EVALUACIONES MEMORÍSTICAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES TOTALMENTE PASIVAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PARTICIPACIÓN CONSTANTE DEL ESTUDIANTE",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "AUSENCIA DE INTERACCIÓN",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 2
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ HABILIDAD ES CLAVE PARA DIRIGIR EQUIPOS DE TRABAJO?"
+		},
+		"opciones": [
+			{
+				"texto": "LIDERAZGO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MEMORIZACIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TRABAJO INDIVIDUAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REPETICIÓN DE PROCESOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VENTAJA OFRECE ESTUDIAR UN DIPLOMADO?"
+		},
+		"opciones": [
+			{
+				"texto": "ESPECIALIZARSE EN UN ÁREA ESPECÍFICA EN MENOR TIEMPO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REEMPLAZAR LA EXPERIENCIA LABORAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL APRENDIZAJE PRÁCTICO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ BENEFICIO OFRECE EL NETWORKING PROFESIONAL?"
+		},
+		"opciones": [
+			{
+				"texto": "EVITAR TRABAJO EN EQUIPO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "AMPLIAR OPORTUNIDADES LABORALES Y CONTACTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "DISMINUIR EL CONTENIDO ACADÉMICO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 2
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ CARACTERÍSTICA DEBE TENER UN PROGRAMA DE POSGRADO ACTUALIZADO?"
+		},
+		"opciones": [
+			{
+				"texto": "EVALUACIONES ÚNICAMENTE MEMORÍSTICAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "SOLO TEORÍA ACADÉMICA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES SIN INTERACCIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CONTENIDOS ALINEADOS A LAS NECESIDADES DEL MERCADO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 3
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VENTAJA TIENE ESTUDIAR CON PROYECTOS APLICADOS?"
+		},
+		"opciones": [
+			{
+				"texto": "RESOLVER DESAFÍOS SIMILARES A LOS DEL ENTORNO LABORAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR CONTENIDO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINAR TRABAJO EN EQUIPO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ PERMITE DESARROLLAR UN PROGRAMA ENFOCADO EN GESTIÓN?"
+		},
+		"opciones": [
+			{
+				"texto": "REDUCCIÓN DE RESPONSABILIDADES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CAPACIDAD PARA TOMAR DECISIONES ESTRATÉGICAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINACIÓN DEL TRABAJO EN EQUIPO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCCIÓN DEL ANÁLISIS EMPRESARIAL",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 1
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VALOR APORTA LA ACTUALIZACIÓN PROFESIONAL CONTINUA?"
+		},
+		"opciones": [
+			{
+				"texto": "MANTENERSE COMPETITIVO EN EL MERCADO LABORAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EXPERIENCIA LABORAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR NUEVAS RESPONSABILIDADES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR OPORTUNIDADES PROFESIONALES",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VENTAJA TIENE ESTUDIAR CON PROFESIONALES DE DIFERENTES SECTORES?"
+		},
+		"opciones": [
+			{
+				"texto": "CONOCER DIVERSAS REALIDADES DEL MERCADO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR INTERACCIÓN",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR EL NETWORKING",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ TIPO DE APRENDIZAJE FACILITA APLICAR CONOCIMIENTOS EN EL TRABAJO?"
+		},
+		"opciones": [
+			{
+				"texto": "EVALUACIONES TEÓRICAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MEMORIZACIÓN DE CONCEPTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES SIN PRÁCTICA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "APRENDIZAJE BASADO EN CASOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 3
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ HABILIDAD PERMITE LIDERAR PROCESOS DE CAMBIO EN UNA ORGANIZACIÓN?"
+		},
+		"opciones": [
+			{
+				"texto": "INNOVACIÓN Y PENSAMIENTO ESTRATÉGICO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REPETICIÓN DE TAREAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "TRABAJO AISLADO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MEMORIZACIÓN",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ CARACTERÍSTICA ES CLAVE EN UN PROGRAMA ORIENTADO A PROFESIONALES?"
+		},
+		"opciones": [
+			{
+				"texto": "FLEXIBILIDAD EN HORARIOS Y MODALIDAD",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "CLASES EXCLUSIVAMENTE DIURNAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "PROGRAMAS SIN PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVALUACIONES ÚNICAMENTE TEÓRICAS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ BENEFICIO APORTA ESTUDIAR UN POSGRADO EN UNA ESCUELA ESPECIALIZADA?"
+		},
+		"opciones": [
+			{
+				"texto": "ELIMINACIÓN DE PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCCIÓN DEL APRENDIZAJE PRÁCTICO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "FORMACIÓN ENFOCADA EN EL DESARROLLO PROFESIONAL",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "MENOR INTERACCIÓN ACADÉMICA",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 2
+	},
+	{
+		"pregunta": {
+			"texto": "¿CUÁL ES UNA DE LAS MAYORES VENTAJAS DE ESTUDIAR UN POSGRADO MIENTRAS TRABAJAS?"
+		},
+		"opciones": [
+			{
+				"texto": "APLICAR INMEDIATAMENTE LO APRENDIDO EN TU TRABAJO",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR RESPONSABILIDADES LABORALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR EVALUACIONES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "ELIMINAR PROYECTOS",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	},
+	{
+		"pregunta": {
+			"texto": "¿QUÉ VALOR APORTA EL NETWORKING EN UN PROGRAMA DE POSGRADO?"
+		},
+		"opciones": [
+			{
+				"texto": "INTERCAMBIAR EXPERIENCIAS CON PROFESIONALES DE DISTINTAS INDUSTRIAS",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR LAS EVALUACIONES DEL PROGRAMA",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "EVITAR PROYECTOS GRUPALES",
+				"imagen": "/images/placeholder.png"
+			},
+			{
+				"texto": "REDUCIR EL TIEMPO DE ESTUDIO",
+				"imagen": "/images/placeholder.png"
+			}
+		],
+		"correcta": 0
+	}
+]

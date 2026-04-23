@@ -1,0 +1,35 @@
+{
+	"preguntasPorJuego": 5,
+	"tiempoPorPregunta": 10,
+	"puntosPorAcierto": 1,
+	"textos":{
+		"portada": {
+			"titulo": "DESBLOQUEA TU SIGUIENTE NIVEL PROFESIONAL",
+			"boton": "COMIENZA AQUÍ"
+		},
+		"respuesta": {
+			"acierto": {
+				"titulo": "¡RESPUESTA CORRECTA!",
+				"mensaje": "SIGUE ASÍ VAMOS ADELANTE",
+				"boton": "SIGUIENTE PREGUNTA"
+			},
+			"error": {
+				"titulo": "¡RESPUESTA INCORRECTA!",
+				"mensaje": "NO TE PREOCUPES VUELVE A INTENTARLO",
+				"boton": "SIGUIENTE PREGUNTA"
+			}
+		},
+		"resultado": {
+			"5": {
+				"titulo": "¡FELICITACIONES!",
+				"mensaje": "OBTUVISTE UN RÉCORD PERFECTO",
+				"agradecimiento": "GRACIAS POR PARTICIPAR"
+			},
+			"0": {
+				"titulo": "¡ESTUVISTE CERCA!",
+				"mensaje": "NO TE DETENGAS SIGUE INTENTANDO",
+				"agradecimiento": "GRACIAS POR PARTICIPAR"
+			}
+		}
+	}
+}
