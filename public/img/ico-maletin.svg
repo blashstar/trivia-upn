@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1684 1400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1433,-13625)">
+        <g transform="matrix(8.333333,0,0,8.333333,0,0)">
+            <g id="ico-maletin">
+                <g transform="matrix(-1,0,0,1,188.157579,1680.804482)">
+                    <rect x="0" y="-0" width="16.158" height="122.165" style="fill:white;"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,373.999998,1680.804482)">
+                    <rect x="0" y="-0" width="16.158" height="122.165" style="fill:white;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,204.284912,1635.000015)">
+                    <path d="M106.93,38.18C106.93,17.124 89.805,-0 68.745,-0C47.686,-0 30.56,17.124 30.56,38.18L30.56,45.804L0,45.804L0,167.97L137.46,167.97L137.46,45.804L106.9,45.804L106.9,38.18L106.93,38.18ZM47.414,45.804L47.414,38.695C47.414,26.926 57.005,17.335 68.776,17.335C80.546,17.335 90.137,26.926 90.137,38.695L90.137,45.804L47.414,45.804Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
