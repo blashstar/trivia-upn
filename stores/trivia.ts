@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { shuffle } from 'lodash'
 import type {
   Config,
   Pregunta,
@@ -37,22 +38,9 @@ export const useTriviaStore = defineStore('trivia', () => {
     return config.value.textos.resultado['0']
   })
 
-  // Acciones
-  function fisherYatesShuffle<T>(array: T[]): T[] {
-    const shuffled = [...array]
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-    }
-    return shuffled
-  }
-
   function iniciarJuego() {
     const total = config.value?.preguntasPorJuego ?? todasPreguntas.value.length
-    preguntasJuego.value = fisherYatesShuffle(todasPreguntas.value).slice(
-      0,
-      total
-    )
+    preguntasJuego.value = shuffle(todasPreguntas.value).slice(0, total)
     indiceActual.value = 0
     respuestasUsuario.value = []
     pantalla.value = 'pregunta'
@@ -93,6 +81,7 @@ export const useTriviaStore = defineStore('trivia', () => {
     ultimaRespuestaCorrecta.value = correcta
 
     respuestasUsuario.value.push({
+      preguntaId: preguntaActual.value?.id ?? 0,
       preguntaIndex: indiceActual.value,
       opcionSeleccionada: opcionIndex,
       correcta,
