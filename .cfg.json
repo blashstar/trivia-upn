@@ -23,12 +23,16 @@
 			"5": {
 				"titulo": "¡FELICITACIONES!",
 				"mensaje": "OBTUVISTE UN RÉCORD PERFECTO",
-				"agradecimiento": "GRACIAS POR PARTICIPAR"
+				"clase": "lila",
+				"imagen": "/img/ico-celebra.png",
+				"boton": "GRACIAS POR PARTICIPAR"
 			},
 			"0": {
 				"titulo": "¡ESTUVISTE CERCA!",
 				"mensaje": "NO TE DETENGAS SIGUE INTENTANDO",
-				"agradecimiento": "GRACIAS POR PARTICIPAR"
+				"clase": "celeste",
+				"imagen": "/img/ico-acierto.png",
+				"boton": "GRACIAS POR PARTICIPAR"
 			}
 		}
 	}
