@@ -1,30 +1,32 @@
 <template lang="pug">
 #encabezado
   .logo
-    img(src="https://www.upn.edu.pe/sites/default/files/logo-posgrado-upn.svg" alt="UPN Posgrado")
+    img(src="/img/logo_negro.png" alt="UPN Posgrado")
 #principal
-  .resultado-mensaje
-    .panel.inverso
-      .resultado-icono {{ store.ultimaRespuestaCorrecta ? '✅' : '❌' }}
-      h1(
-        v-if="store.ultimaRespuestaCorrecta"
-      ) {{ store.config?.textos.respuesta.acierto.titulo }}
-      h1(v-else) {{ store.config?.textos.respuesta.error.titulo }}
-      h4(
-        v-if="store.ultimaRespuestaCorrecta"
-      ) {{ store.config?.textos.respuesta.acierto.mensaje }}
-      h4(v-else) {{ store.config?.textos.respuesta.error.mensaje }}
-  #pie
-    button(type="button" @click="siguiente")
-      span(
-        v-if="store.ultimaRespuestaCorrecta"
-      ) {{ store.config?.textos.respuesta.acierto.boton }}
-      span(v-else) {{ store.config?.textos.respuesta.error.boton }}
+  .panel
+    h2 {{ textos.titulo }}
+    h3 {{ textos.mensaje }}
+
+  .contenido(:class="correcta ? 'acierto' : 'error'")
+    img(src="/img/ico-bien.png" v-if="correcta")
+    img(src="/img/ico-mal.png" v-else)
+
+  button(type="button" @click="siguiente")
+    span {{ textos.boton }}
 </template>
 
 <script setup lang="ts">
 const store = useTriviaStore()
 const router = useRouter()
+
+const correcta = computed(() => {
+  return store?.ultimaRespuestaCorrecta || false
+})
+
+const textos = computed(() => {
+  return correcta.value ? store.config?.textos.respuesta.acierto : store.config?.textos.respuesta.error
+})
+
 
 function siguiente() {
   store.siguientePregunta()
@@ -37,4 +39,9 @@ function siguiente() {
 </script>
 
 <style lang="stylus">
+  .contenido
+    &.acierto
+      background-color color-celeste
+    &.error
+      background-color color-fuchsia
 </style>

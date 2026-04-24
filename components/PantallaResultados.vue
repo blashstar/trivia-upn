@@ -1,25 +1,28 @@
 <template lang="pug">
 #encabezado
   .logo
-    img(src="https://www.upn.edu.pe/sites/default/files/logo-posgrado-upn.svg" alt="UPN Posgrado")
+    img(src="/img/logo_negro.png" alt="UPN Posgrado")
 #principal
-  .resultado-mensaje
-    .panel
-      h1 {{ textoResultado?.titulo }}
-      .score-numero {{ store.puntaje }}
-      .score-total / {{ store.totalPreguntas }}
-      h3 {{ textoResultado?.mensaje }}
-      h4 {{ textoResultado?.agradecimiento }}
-  #pie
-    button(type="button" @click="reiniciar")
-      span JUGAR DE NUEVO
+  .panel
+    h1 {{ textos?.titulo }}
+    h3 {{ textos?.mensaje }}
+  .contenido
+    img(src="/img/ico-celebra.png")
+  button(type="button" @click="reiniciar")
+    span {{ textos?.agradecimiento }}
 </template>
 
 <script setup lang="ts">
 const store = useTriviaStore()
 const router = useRouter()
 
-const textoResultado = computed(() => store.textoResultado)
+const textos = computed(() => {
+  return {
+    "titulo": "¡FELICITACIONES!",
+    "mensaje": "OBTUVISTE UN RÉCORD PERFECTO",
+    "agradecimiento": "GRACIAS POR PARTICIPAR"
+  }
+});
 
 function reiniciar() {
   store.reiniciar()
