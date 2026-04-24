@@ -6,19 +6,19 @@
 		"opciones": [
 			{
 				"texto": "OBTENER UN NUEVO TÍTULO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "DESARROLLAR HABILIDADES PROFESIONALES AVANZADAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CAMBIAR DE TRABAJO INMEDIATAMENTE",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TENER MÁS AÑOS DE ESTUDIO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -30,19 +30,19 @@
 		"opciones": [
 			{
 				"texto": "BACHILLERATO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MAESTRÍA, MBA'S, DIPLOMADOS, PROGRAMAS ESPECIALIZADOS, CURSOS CORTOS, SEGUNDAS ESPECIALIDADES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "DIPLOMADO, PROGRAMAS ESPECIALIZADOS, CURSOS CORTOS Y SEGUNDAS ESPECIALIDADES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MAESTRÍA Y MBA'S",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -54,19 +54,19 @@
 		"opciones": [
 			{
 				"texto": "DESARROLLO DE LIDERAZGO Y ESPECIALIZACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MENOS RESPONSABILIDADES LABORALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MENOS HORAS DE TRABAJO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINACIÓN DE EXPERIENCIA LABORAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -78,19 +78,19 @@
 		"opciones": [
 			{
 				"texto": "DOCTORADO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MAESTRÍA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "DIPLOMADO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PROGRAMAS ESPECIALIZADOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 3
@@ -102,19 +102,19 @@
 		"opciones": [
 			{
 				"texto": "COLOR DEL CAMPUS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MODALIDAD Y FLEXIBILIDAD",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "UNIFORME INSTITUCIONAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "NÚMERO DE EXÁMENES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -126,19 +126,19 @@
 		"opciones": [
 			{
 				"texto": "LIDERAZGO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "GESTIÓN ESTRATÉGICA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TOMA DE DECISIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TODAS LAS ANTERIORES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 3
@@ -150,19 +150,19 @@
 		"opciones": [
 			{
 				"texto": "PRESENCIAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "VIRTUAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "SEMIPRESENCIAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "INTENSIVA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -174,19 +174,19 @@
 		"opciones": [
 			{
 				"texto": "CONOCER PROFESIONALES DE OTRAS INDUSTRIAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CONSEGUIR DESCUENTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL TIEMPO DE ESTUDIO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -198,19 +198,19 @@
 		"opciones": [
 			{
 				"texto": "SOLO TEORÍA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CASOS PRÁCTICOS Y APLICACIÓN REAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "SOLO MEMORIZACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES SIN INTERACCIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -222,19 +222,19 @@
 		"opciones": [
 			{
 				"texto": "GESTIÓN EMPRESARIAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TECNOLOGÍA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "INNOVACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TODAS LAS ANTERIORES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 3
@@ -246,19 +246,19 @@
 		"opciones": [
 			{
 				"texto": "APLICAR LO APRENDIDO DE INMEDIATO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR RESPONSABILIDADES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "NO REALIZAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -270,19 +270,19 @@
 		"opciones": [
 			{
 				"texto": "APRENDER ÚNICAMENTE TEORÍA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CONECTAR LA TEORÍA CON SITUACIONES REALES DE NEGOCIO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL CONTENIDO DEL CURSO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -294,19 +294,19 @@
 		"opciones": [
 			{
 				"texto": "HORARIOS RÍGIDOS DURANTE EL DÍA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MODALIDAD FLEXIBLE QUE PERMITE ESTUDIAR Y TRABAJAR",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES SOLO PRESENCIALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PROGRAMAS SIN PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -318,19 +318,19 @@
 		"opciones": [
 			{
 				"texto": "REDUCIR EL NÚMERO DE EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "AMPLIAR PERSPECTIVAS Y EXPERIENCIAS PROFESIONALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR EL TRABAJO EN EQUIPO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL CONTENIDO DEL PROGRAMA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -342,19 +342,19 @@
 		"opciones": [
 			{
 				"texto": "DOCENTES CON EXPERIENCIA PROFESIONAL EN SU SECTOR",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MENOS HORAS DE CLASE",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PROGRAMAS SIN EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES SIN INTERACCIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -366,19 +366,19 @@
 		"opciones": [
 			{
 				"texto": "EVITAR CAPACITACIÓN ADICIONAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR LA EXPERIENCIA LABORAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CAMBIAR CONSTANTEMENTE DE EMPLEO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ACTUALIZACIÓN DE CONOCIMIENTOS Y ESPECIALIZACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 3
@@ -390,19 +390,19 @@
 		"opciones": [
 			{
 				"texto": "APRENDIZAJE BASADO EN MEMORIZACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "APRENDIZAJE PRÁCTICO APLICADO A PROBLEMAS REALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES ÚNICAMENTE TEÓRICAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVALUACIONES SIN APLICACIÓN PRÁCTICA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -414,19 +414,19 @@
 		"opciones": [
 			{
 				"texto": "REDUCE EL TIEMPO DE ESTUDIO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PERMITE APRENDER CONTENIDOS ACTUALIZADOS Y RELEVANTES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINA EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCE LOS PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -438,19 +438,19 @@
 		"opciones": [
 			{
 				"texto": "MEMORIZACIÓN DE CONCEPTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REPETICIÓN DE PROCEDIMIENTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PENSAMIENTO ESTRATÉGICO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TRABAJO INDIVIDUAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 2
@@ -462,19 +462,19 @@
 		"opciones": [
 			{
 				"texto": "REDUCIR LA PARTICIPACIÓN EN CLASE",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "INTERCAMBIAR EXPERIENCIAS CON OTROS PROFESIONALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR PROYECTOS GRUPALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "DISMINUIR EL CONTENIDO DEL CURSO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -486,19 +486,19 @@
 		"opciones": [
 			{
 				"texto": "REDUCIR EL NÚMERO DE CLASES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "APLICAR LO APRENDIDO DIRECTAMENTE EN EL TRABAJO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINAR PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 2
@@ -510,19 +510,19 @@
 		"opciones": [
 			{
 				"texto": "CONOCER TENDENCIAS Y EXPERIENCIAS REALES DEL MERCADO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL CONTENIDO ACADÉMICO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINAR TRABAJOS GRUPALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL NÚMERO DE EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -534,19 +534,19 @@
 		"opciones": [
 			{
 				"texto": "EVALUACIONES MEMORÍSTICAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES TOTALMENTE PASIVAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PARTICIPACIÓN CONSTANTE DEL ESTUDIANTE",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "AUSENCIA DE INTERACCIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 2
@@ -558,19 +558,19 @@
 		"opciones": [
 			{
 				"texto": "LIDERAZGO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MEMORIZACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TRABAJO INDIVIDUAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REPETICIÓN DE PROCESOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -582,19 +582,19 @@
 		"opciones": [
 			{
 				"texto": "ESPECIALIZARSE EN UN ÁREA ESPECÍFICA EN MENOR TIEMPO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REEMPLAZAR LA EXPERIENCIA LABORAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL APRENDIZAJE PRÁCTICO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -606,19 +606,19 @@
 		"opciones": [
 			{
 				"texto": "EVITAR TRABAJO EN EQUIPO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "AMPLIAR OPORTUNIDADES LABORALES Y CONTACTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "DISMINUIR EL CONTENIDO ACADÉMICO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 2
@@ -630,19 +630,19 @@
 		"opciones": [
 			{
 				"texto": "EVALUACIONES ÚNICAMENTE MEMORÍSTICAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "SOLO TEORÍA ACADÉMICA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES SIN INTERACCIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CONTENIDOS ALINEADOS A LAS NECESIDADES DEL MERCADO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 3
@@ -654,19 +654,19 @@
 		"opciones": [
 			{
 				"texto": "RESOLVER DESAFÍOS SIMILARES A LOS DEL ENTORNO LABORAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR CONTENIDO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINAR TRABAJO EN EQUIPO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -678,19 +678,19 @@
 		"opciones": [
 			{
 				"texto": "REDUCCIÓN DE RESPONSABILIDADES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CAPACIDAD PARA TOMAR DECISIONES ESTRATÉGICAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINACIÓN DEL TRABAJO EN EQUIPO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCCIÓN DEL ANÁLISIS EMPRESARIAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 1
@@ -702,19 +702,19 @@
 		"opciones": [
 			{
 				"texto": "MANTENERSE COMPETITIVO EN EL MERCADO LABORAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EXPERIENCIA LABORAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR NUEVAS RESPONSABILIDADES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR OPORTUNIDADES PROFESIONALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -726,19 +726,19 @@
 		"opciones": [
 			{
 				"texto": "CONOCER DIVERSAS REALIDADES DEL MERCADO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR INTERACCIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR EL NETWORKING",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -750,19 +750,19 @@
 		"opciones": [
 			{
 				"texto": "EVALUACIONES TEÓRICAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MEMORIZACIÓN DE CONCEPTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES SIN PRÁCTICA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "APRENDIZAJE BASADO EN CASOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 3
@@ -774,19 +774,19 @@
 		"opciones": [
 			{
 				"texto": "INNOVACIÓN Y PENSAMIENTO ESTRATÉGICO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REPETICIÓN DE TAREAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "TRABAJO AISLADO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MEMORIZACIÓN",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -798,19 +798,19 @@
 		"opciones": [
 			{
 				"texto": "FLEXIBILIDAD EN HORARIOS Y MODALIDAD",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "CLASES EXCLUSIVAMENTE DIURNAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "PROGRAMAS SIN PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVALUACIONES ÚNICAMENTE TEÓRICAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -822,19 +822,19 @@
 		"opciones": [
 			{
 				"texto": "ELIMINACIÓN DE PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCCIÓN DEL APRENDIZAJE PRÁCTICO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "FORMACIÓN ENFOCADA EN EL DESARROLLO PROFESIONAL",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "MENOR INTERACCIÓN ACADÉMICA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 2
@@ -846,19 +846,19 @@
 		"opciones": [
 			{
 				"texto": "APLICAR INMEDIATAMENTE LO APRENDIDO EN TU TRABAJO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR RESPONSABILIDADES LABORALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR EVALUACIONES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "ELIMINAR PROYECTOS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
@@ -870,19 +870,19 @@
 		"opciones": [
 			{
 				"texto": "INTERCAMBIAR EXPERIENCIAS CON PROFESIONALES DE DISTINTAS INDUSTRIAS",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR LAS EVALUACIONES DEL PROGRAMA",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "EVITAR PROYECTOS GRUPALES",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			},
 			{
 				"texto": "REDUCIR EL TIEMPO DE ESTUDIO",
-				"imagen": "/images/placeholder.png"
+				"imagen": "/img/placeholder.png"
 			}
 		],
 		"correcta": 0
