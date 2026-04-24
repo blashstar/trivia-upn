@@ -1,27 +1,44 @@
 <template lang="pug">
-#encabezado
-  .logo
-    img(src="/img/logo_negro.png" alt="UPN Posgrado")
-#principal
-  .panel
-    h1 {{ textos?.titulo }}
-    h3 {{ textos?.mensaje }}
-  .contenido
-    img(src="/img/ico-celebra.png")
-  button(type="button" @click="reiniciar")
-    span {{ textos?.agradecimiento }}
+.vista 
+  #encabezado
+    .logo
+      img(src="/img/logo_negro.png" alt="UPN Posgrado")
+  #principal
+    .panel
+      h1 {{ textos?.titulo }}
+      h3 {{ textos?.mensaje }}
+    .contenido(:class="textos?.clase")
+      img(:src="textos?.imagen")
+    button(type="button" @click="reiniciar")
+      span {{ textos?.boton }}
 </template>
 
 <script setup lang="ts">
+import _ from 'lodash';
+
 const store = useTriviaStore()
 const router = useRouter()
 
+const puntaje = computed(() => store.puntaje)
+
 const textos = computed(() => {
-  return {
-    "titulo": "¡FELICITACIONES!",
-    "mensaje": "OBTUVISTE UN RÉCORD PERFECTO",
-    "agradecimiento": "GRACIAS POR PARTICIPAR"
+  const cadenas = store.config?.textos.resultado;
+  
+  if (!cadenas) {
+    return {
+      titulo: '',
+      mensaje: '',
+      agradecimiento: ''
+    };
   }
+  
+  const clavesOrdenadas = _.sortBy(Object.keys(cadenas).map(Number));
+  const claveEncontrada = _.find(
+    clavesOrdenadas, 
+    (clave: number) => clave <= puntaje.value
+  ) || _.first(clavesOrdenadas);
+  
+  return cadenas[claveEncontrada!];
 });
 
 function reiniciar() {
@@ -31,16 +48,11 @@ function reiniciar() {
 </script>
 
 <style lang="stylus">
-.score-numero
-  font-size 12vh
-  font-weight 900
-  color var(--color-lila)
-  line-height 1
-  text-align center
 
-.score-total
-  font-size 4vh
-  color var(--color-negro)
-  text-align center
-  font-weight 700
+.lila
+  background-color color-lila
+
+.celeste
+  background-color color-celeste
+
 </style>
