@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 124 334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-763,-4916)">
-        <g id="ico-arriba" transform="matrix(0,-8.333333,8.333333,0,490.852858,5250)">
-            <path d="M39.707,40.805C40.098,40.414 40.098,39.781 39.707,39.391L33.343,33.027C32.953,32.636 32.319,32.636 31.929,33.027C31.538,33.417 31.538,34.05 31.929,34.441L37.586,40.098L31.929,45.755C31.538,46.145 31.538,46.778 31.929,47.169C32.319,47.559 32.953,47.559 33.343,47.169L39.707,40.805ZM0,39.098L0,41.098L39,41.098L39,39.098L0,39.098Z" style="fill:rgb(253,186,48);fill-rule:nonzero;"/>
-        </g>
-    </g>
-</svg>
