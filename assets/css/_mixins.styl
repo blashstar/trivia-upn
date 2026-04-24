@@ -1,0 +1,24 @@
+// ============================================
+// Mixins — media queries
+// ============================================
+// Nota: _variables ya se inyecta globalmente via nuxt.config vite.css.preprocessorOptions
+
+media(rango, valor)
+  @media only screen and ({rango}: valor)
+    {block}
+
+solo-movil()
+  +media('max-width', ancho-tableta)
+    {block}
+
+desde-tablet()
+  +media('min-width', ancho-tableta)
+    {block}
+
+desde-escritorio()
+  +media('min-width', ancho-escritorio)
+    {block}
+
+desde-escritorio-amplio()
+  +media('min-width', ancho-escritorio-amplio)
+    {block}

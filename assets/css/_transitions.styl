@@ -1,0 +1,29 @@
+// ============================================
+// Transiciones entre pantallas
+// ============================================
+
+.slide-fade-enter-active
+  transition: all 0.2s ease-out
+
+.slide-fade-leave-active
+  transition: all 0.15s ease-in
+
+.slide-fade-enter-from
+  opacity: 0
+  transform: translateX(2vh)
+
+.slide-fade-leave-to
+  opacity: 0
+  transform: translateX(-2vh)
+
+// Estados de carga / error
+.cargando-inicial,
+.error-inicial
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  min-height: 100vh
+  gap: 2vh
+  font-size: 3vh
+  color: color-negro

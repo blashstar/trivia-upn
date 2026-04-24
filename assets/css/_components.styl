@@ -1,0 +1,124 @@
+// ============================================
+// Componentes — paneles, contenido, botones, opciones
+// ============================================
+@require '_variables'
+
+// Paneles
+.panel
+  display: flex
+  flex-direction: column
+  align-items: stretch
+  padding: 2.5vh
+  gap: 1vh
+  background-color: color-blanco
+  color: color-negro
+  text-align: center
+  flex-shrink: 0
+
+  &.inverso
+    background-color: color-negro
+    color: color-blanco
+
+  h3
+    max-width 17ch
+    margin-inline auto
+
+    &:first-line
+      font-weight 400
+
+// Contenido central
+.contenido
+  padding: 2.5vh
+  background-color: color-gris
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  flex: 1
+
+  img
+    max-width: 100%
+    max-height: 30vh
+    object-fit: contain
+    border-radius: 1vh
+
+// Botones
+button,
+a,
+[type="button"],
+[type="reset"],
+[type="submit"]
+  padding: 0.4em 1em
+  font-size: 3vh
+  color: color-negro
+  background-color: color-amarillo
+  border: none
+  text-decoration: none
+  cursor: pointer
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 0.5em
+  font-weight: 700
+  font-family: 'Sharp Grotesk', sans-serif
+  min-height: 10vh
+  transition: filter 0.15s ease
+
+  &:active
+    filter: brightness(0.9)
+
+.btn-completo
+  width: 100%
+
+// Opciones — grid 2x2
+.opciones
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: 1fr 1fr
+  list-style: none
+  margin: 0
+  flex: 1
+
+  .opcion
+    display: grid
+    grid-template-rows: 1fr auto
+    justify-content: stretch
+    place-items: center
+    padding: 2.5vh 1vh
+    gap: 1vh
+    color: color-blanco
+    background-color: color-negro
+    text-align: center
+    text-wrap: balance
+    font-size: 2.5vh
+    font-weight: 700
+    border: none
+    cursor: pointer
+    font-family: 'Sharp Grotesk', sans-serif
+    transition: filter 0.15s ease
+    min-height: 0
+
+    &:active
+      filter: brightness(0.85)
+
+    &:nth-child(1)
+      background-color: color-lila
+
+    &:nth-child(2)
+      background-color: color-celeste
+
+    &:nth-child(3)
+      background-color: color-fuchsia
+
+    &:nth-child(4)
+      background-color: color-negro
+
+    > span
+      align-self: start
+      padding: 0 1vh
+
+    > img
+      width: 12vh
+      aspect-ratio: 1
+      height: auto
+      object-fit: contain
