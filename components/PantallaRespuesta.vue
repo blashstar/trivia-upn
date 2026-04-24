@@ -1,18 +1,19 @@
 <template lang="pug">
-#encabezado
-  .logo
-    img(src="/img/logo_negro.png" alt="UPN Posgrado")
-#principal
-  .panel
-    h2 {{ textos.titulo }}
-    h3 {{ textos.mensaje }}
+.vista
+  #encabezado
+    .logo
+      img(src="/img/logo_negro.png" alt="UPN Posgrado")
+  #principal(v-if="textos")
+    .panel
+      h2 {{ textos.titulo }}
+      h3 {{ textos.mensaje }}
 
-  .contenido(:class="correcta ? 'acierto' : 'error'")
-    img(src="/img/ico-bien.png" v-if="correcta")
-    img(src="/img/ico-mal.png" v-else)
+    .contenido(:class="correcta ? 'acierto' : 'error'")
+      img(src="/img/ico-bien.png" v-if="correcta")
+      img(src="/img/ico-mal.png" v-else)
 
-  button(type="button" @click="siguiente")
-    span {{ textos.boton }}
+    button(type="button" @click="siguiente")
+      span {{ textos.boton }}
 </template>
 
 <script setup lang="ts">
@@ -39,6 +40,7 @@ function siguiente() {
 </script>
 
 <style lang="stylus">
+
   .contenido
     &.acierto
       background-color color-celeste

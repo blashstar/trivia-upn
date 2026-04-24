@@ -1,28 +1,29 @@
 <template lang="pug">
-#encabezado
-  .logo
-    img(src="/img/logo_negro.png" alt="UPN Posgrado")
-  .grupo.derecha
-    strong TIEMPO
-    span.tiempo() {{ tiempoRestante }}
-#principal
-  .panel.inverso
-    h2 {{ actual?.pregunta?.texto }}
-  .panel
-    p SELECCIONA SOLO #[strong UNA RESPUESTA]
-  .opciones
-    button.opcion(
-      v-for="(opcion, index) in actual?.opciones"
-      :key="index"
-      type="button"
-      @click="responder(index)"
-    )
-      span {{ letras[index] }}. {{ opcion.texto }}
-      img(
-        v-if="opcion.imagen"
-        :src="opcion.imagen"
-        @error="onImageError"
+.vista
+  #encabezado
+    .logo
+      img(src="/img/logo_negro.png" alt="UPN Posgrado")
+    .grupo.derecha
+      strong TIEMPO
+      span.tiempo() {{ tiempoRestante }}
+  #principal
+    .panel.inverso.pregunta
+      .texto {{ actual?.pregunta?.texto }}
+    .panel
+      p SELECCIONA SOLO #[strong UNA RESPUESTA]
+    .opciones
+      button.opcion(
+        v-for="(opcion, index) in actual?.opciones"
+        :key="index"
+        type="button"
+        @click="responder(index)"
       )
+        span {{ letras[index] }}. {{ opcion.texto }}
+        img(
+          v-if="opcion.imagen"
+          :src="opcion.imagen"
+          @error="onImageError"
+        )
 </template>
 
 <script setup lang="ts">
@@ -31,7 +32,6 @@ const router = useRouter()
 const letras = ['A', 'B', 'C', 'D']
 
 const actual = computed(() => store.preguntaActual);
-
 
 const tiempoRestante = computed(() => {
   if (!store.tiempoRestante) return '00:00'
@@ -52,4 +52,14 @@ function responder(index: number) {
 </script>
 
 <style lang="stylus">
+
+.pregunta
+  height 24dvh
+  justify-content center
+
+
+  .texto
+    font-size 4vh
+    line-height 1.2
+    font-weight 700
 </style>

@@ -1,13 +1,14 @@
 <template lang="pug">
-#principal(v-if="textos")
-  .panel.inverso
-    .logo
-      img(src="/img/logo_ambar.png" alt="UPN Posgrado")
-    h1 {{ textos.titulo }}
-    button.enlace(type="button" @click="iniciar"): .texto
-      img(src="/img/ico-arriba.svg", width=8)
-      span {{ textos.boton }}
-  figure.foto: img(src="/img/portada.jpg")
+.vista 
+  #principal(v-if="textos")
+    .panel.inverso
+      .logo
+        img(src="/img/logo_ambar.png" alt="UPN Posgrado")
+      h1 {{ textos.titulo }}
+      button.enlace(type="button" @click="iniciar"): .texto
+        img(src="/img/ico-arriba.svg", width=8)
+        span {{ textos.boton }}
+    figure.foto: img(src="/img/portada.jpg")
 </template>
 
 <script setup lang="ts">
