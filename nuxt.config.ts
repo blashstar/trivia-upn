@@ -15,6 +15,17 @@ export default defineNuxtConfig({
     appManifest: false,
   },
 
+  // Deshabilitar build del servidor en dev cuando ssr: false
+  nitro: {
+    prerender: {
+      failOnError: false,
+    },
+  },
+
+  devServer: {
+    port: 3000,
+  },
+
   // PWA solo en build/generate — en dev causa error #app-manifest
   modules: [
     '@pinia/nuxt',
@@ -82,6 +93,14 @@ export default defineNuxtConfig({
             resolve(__dirname, 'assets/css/_variables.styl'),
             resolve(__dirname, 'assets/css/_mixins.styl'),
           ],
+        },
+      },
+    },
+    vue: {
+      template: {
+        transformAssetUrls: {
+          base: null,
+          includeAbsolute: false,
         },
       },
     },
