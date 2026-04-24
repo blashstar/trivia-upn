@@ -8,6 +8,7 @@ export interface PreguntaTexto {
 }
 
 export interface Pregunta {
+  id: number
   pregunta: PreguntaTexto
   opciones: Opcion[]
   correcta: number
@@ -47,6 +48,7 @@ export interface Config {
 }
 
 export interface RespuestaUsuario {
+  preguntaId: number
   preguntaIndex: number
   opcionSeleccionada: number | null
   correcta: boolean
