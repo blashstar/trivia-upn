@@ -17,12 +17,12 @@
 </template>
 
 <script setup lang="ts">
+import { defaultTo } from 'lodash'
+
 const store = useTriviaStore()
 const router = useRouter()
 
-const correcta = computed(() => {
-  return store?.ultimaRespuestaCorrecta || false
-})
+const correcta = computed(() => defaultTo(store.ultimaRespuestaCorrecta, false))
 
 const textos = computed(() => {
   return correcta.value ? store.config?.textos.respuesta.acierto : store.config?.textos.respuesta.error

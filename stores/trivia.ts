@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { shuffle } from 'lodash'
+import { shuffle, sortBy, findLast, first } from 'lodash'
 import type {
   Config,
   Pregunta,
@@ -27,15 +27,18 @@ export const useTriviaStore = defineStore('trivia', () => {
   const puntaje = computed(
     () => respuestasUsuario.value.filter((r) => r.correcta).length
   )
-  const esUrgente = computed(() => tiempoRestante.value <= 3)
+  const esUrgente = computed(() => {
+    const total = config.value?.tiempoPorPregunta ?? 10
+    return tiempoRestante.value < total * 0.3
+  })
+  const tiempoTotal = computed(() => config.value?.tiempoPorPregunta ?? 10)
   const textoResultado = computed(() => {
     if (!config.value) return null
     const score = puntaje.value
-    const maximo = config.value.preguntasPorJuego
-    // Si acertó todas las preguntas del juego
-    if (score === maximo) return config.value.textos.resultado[String(maximo)]
-    // Si no, mostrar el mensaje de "casi"
-    return config.value.textos.resultado['0']
+    const textos = config.value.textos.resultado
+    const claves = sortBy(Object.keys(textos).map(Number))
+    const clave = findLast(claves, k => k <= score) ?? first(claves)
+    return textos[String(clave)] ?? null
   })
 
   function iniciarJuego() {
@@ -51,24 +54,12 @@ export const useTriviaStore = defineStore('trivia', () => {
     const tiempo = config.value?.tiempoPorPregunta ?? 10
     tiempoRestante.value = tiempo
     temporizadorActivo.value = true
-
     if (_intervalId) clearInterval(_intervalId)
-
-    _intervalId = setInterval(() => {
-      tiempoRestante.value--
-      if (tiempoRestante.value <= 0) {
-        detenerTemporizador()
-        responder(null)
-      }
-    }, 1000)
+    _intervalId = null
   }
 
   function detenerTemporizador() {
     temporizadorActivo.value = false
-    if (_intervalId) {
-      clearInterval(_intervalId)
-      _intervalId = null
-    }
   }
 
   function responder(opcionIndex: number | null) {
@@ -128,6 +119,7 @@ export const useTriviaStore = defineStore('trivia', () => {
     puntaje,
     esUrgente,
     textoResultado,
+    tiempoTotal,
     iniciarJuego,
     iniciarTemporizador,
     detenerTemporizador,

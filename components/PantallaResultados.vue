@@ -14,32 +14,14 @@
 </template>
 
 <script setup lang="ts">
-import _ from 'lodash';
-
 const store = useTriviaStore()
 const router = useRouter()
 
-const puntaje = computed(() => store.puntaje)
-
-const textos = computed(() => {
-  const cadenas = store.config?.textos.resultado;
-  
-  if (!cadenas) {
-    return {
-      titulo: '',
-      mensaje: '',
-      agradecimiento: ''
-    };
-  }
-  
-  const clavesOrdenadas = _.sortBy(Object.keys(cadenas).map(Number));
-  const claveEncontrada = _.find(
-    clavesOrdenadas, 
-    (clave: number) => clave <= puntaje.value
-  ) || _.first(clavesOrdenadas);
-  
-  return cadenas[claveEncontrada!];
-});
+const textos = computed(() => store.textoResultado ?? {
+  titulo: '',
+  mensaje: '',
+  agradecimiento: ''
+})
 
 function reiniciar() {
   store.reiniciar()
