@@ -1,11 +1,11 @@
 <template lang="pug">
 #pagina
-  Transition(name="slide-fade" mode="out-in")
-    NuxtPage
+  NuxtPage
 </template>
 
 <script setup lang="ts">
 const { cargar } = useGameData()
+useFullscreenToggle()
 
 // Los datos se inyectan en el build — solo inicializar el store
 onMounted(() => {
