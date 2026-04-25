@@ -18,6 +18,7 @@
   color: color-negro
   font-size: 2vh
   overflow: hidden
+  background-color: color-amarillo
 
   h1, h2, h3, h4, h5, h6
     text-wrap: balance
@@ -107,6 +108,24 @@
 .vista
   width 100%
   height: 100%
+  flex 1 1 100%
+  display: flex
+  flex-direction: column
+  align-items: stretch
+  justify-content: stretch
+
+// Page transition grid container — stacks pages for parallel transitions
+.page-container
+  display: grid
+  width: 100%
+  height: 100%
+  flex: 1 1 100%
+
+// Page transition wrapper — fills grid cell
+.page-wrapper
+  grid-area: 1 / 1
+  width 100%
+  height 100%
   flex 1 1 100%
   display: flex
   flex-direction: column

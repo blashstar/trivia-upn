@@ -1,8 +1,3 @@
 <template lang="pug">
-  //-
+NuxtPage
 </template>
-
-<script setup lang="ts">
-const router = useRouter()
-router.replace('/portada')
-</script>

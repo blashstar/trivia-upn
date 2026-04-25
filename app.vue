@@ -1,13 +1,15 @@
 <template lang="pug">
 #pagina
-  NuxtPage
+  .page-container
+    RouterView(v-slot="{ Component }")
+      Transition(name="page")
+        component(:is="Component" :key="$route.fullPath")
 </template>
 
 <script setup lang="ts">
 const { cargar } = useGameData()
 useFullscreenToggle()
 
-// Los datos se inyectan en el build — solo inicializar el store
 onMounted(() => {
   cargar()
 })

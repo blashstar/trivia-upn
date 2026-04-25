@@ -2,19 +2,22 @@
 // Transiciones entre pantallas
 // ============================================
 
-.slide-fade-enter-active
-  transition: all 0.2s ease-out
+// Page transitions — zoom + lateral slide (parallel, grid-based)
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.45s cubic-bezier(0.25, 0.1, 0.25, 1);
+  grid-area: 1 / 1;
+}
 
-.slide-fade-leave-active
-  transition: all 0.15s ease-in
+.page-enter-from {
+  opacity: 0;
+  transform: scale(1.03);
+}
 
-.slide-fade-enter-from
-  opacity: 0
-  transform: translateX(2vh)
-
-.slide-fade-leave-to
-  opacity: 0
-  transform: translateX(-2vh)
+.page-leave-to {
+  opacity: 0;
+  transform: scale(0.97);
+}
 
 // Estados de carga / error
 .cargando-inicial,
