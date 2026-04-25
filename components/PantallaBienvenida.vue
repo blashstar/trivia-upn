@@ -1,12 +1,12 @@
 <template lang="pug">
-.vista 
+.vista
   #principal(v-if="textos")
     .panel.inverso
       .logo
         img(src="/img/logo_ambar.png" alt="UPN Posgrado")
       h1 {{ textos.titulo }}
       button.enlace(type="button" @click="iniciar"): .texto
-        img(src="/img/ico-arriba.svg", width=8)
+        img(src="/img/ico-arriba.svg")
         span {{ textos.boton }}
     figure.foto: img(src="/img/portada.jpg")
 </template>
@@ -46,6 +46,10 @@ h1
     align-items center
     gap 0.2em
     border-bottom 1px solid color-amarillo
+
+    img
+      height .8em
+      object-fit contain
 
 .foto
   flex 1 1 auto
