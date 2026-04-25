@@ -1,5 +1,5 @@
 // ============================================
-// Pantallas — timer, resultados, puntuaciones
+// Pantallas — timer
 // ============================================
 @require '_variables'
 
@@ -17,70 +17,3 @@
     opacity: 1
   to
     opacity: 0.5
-
-// Pantalla de respuesta
-.resultado-icono
-  font-size: 10vh
-  margin: 2vh 0
-
-.resultado-mensaje
-  padding: 2.5vh
-  text-align: center
-
-  h1
-    margin-bottom: 1vh
-
-  h4
-    margin-bottom: 0.5vh
-
-// Pantalla de resultados — score
-.score-numero
-  font-size: 12vh
-  font-weight: 900
-  color: color-lila
-  line-height: 1
-  text-align: center
-
-.score-total
-  font-size: 4vh
-  color: color-negro
-  text-align: center
-  font-weight: 700
-
-// Puntuaciones detalle
-.puntuaciones-lista
-  flex: 1
-  overflow-y: auto
-  padding: 2.5vh
-  display: flex
-  flex-direction: column
-  gap: 1.5vh
-
-.puntuacion-item
-  display: flex
-  align-items: center
-  gap: 1.5vh
-  padding: 1.5vh 2vh
-  border-radius: 1vh
-  font-size: 2.5vh
-  font-weight: 700
-
-  &.correcta
-    background-color: color-lila
-    color: color-blanco
-
-  &.incorrecta
-    background-color: color-negro
-    color: color-blanco
-
-.puntuacion-numero
-  min-width: 4vh
-  font-weight: 900
-
-.puntuacion-icono
-  font-size: 3vh
-
-.puntuacion-tiempo
-  margin-left: auto
-  font-weight: 400
-  font-variant-numeric: tabular-nums
