@@ -8,6 +8,8 @@ const isDev = process.argv.includes('dev')
 export default defineNuxtConfig({
   ssr: false,
 
+  pageTransition: { name: 'slide-fade', mode: 'out-in' },
+
   // Evita error de Vite "Failed to resolve import #app-manifest" en dev
   // (pre-análisis de import() aunque la rama sea muerta con ssr: false).
   // Ver: https://github.com/nuxt/nuxt/issues/33606

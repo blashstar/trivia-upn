@@ -3,9 +3,7 @@
   #encabezado
     .logo
       img(src="/img/logo_negro.png" alt="UPN Posgrado")
-    .grupo.derecha
-      strong TIEMPO
-      span.tiempo() {{ tiempoRestante }}
+    .grupo.derecha: Temporizador
   #principal
     .panel.inverso.pregunta
       .texto {{ actual?.pregunta?.texto }}
@@ -27,18 +25,13 @@
 </template>
 
 <script setup lang="ts">
+import { watch } from 'vue'
+
 const store = useTriviaStore()
 const router = useRouter()
 const letras = ['A', 'B', 'C', 'D']
 
 const actual = computed(() => store.preguntaActual);
-
-const tiempoRestante = computed(() => {
-  if (!store.tiempoRestante) return '00:00'
-  const minutos = Math.floor(store.tiempoRestante / 60).toString().padStart(2, '0')
-  const segundos = (store.tiempoRestante % 60).toString().padStart(2, '0')
-  return `${minutos}:${segundos}`
-})
 
 function onImageError(event: Event) {
   const img = event.target as HTMLImageElement
@@ -49,14 +42,19 @@ function responder(index: number) {
   store.responder(index)
   router.push('/respuesta')
 }
+
+// Navigate to /respuesta when timer expires
+watch(() => store.pantalla, (newScreen) => {
+  if (newScreen === 'respuesta') {
+    router.push('/respuesta')
+  }
+})
 </script>
 
 <style lang="stylus">
-
 .pregunta
   height 24dvh
   justify-content center
-
 
   .texto
     font-size 4vh
