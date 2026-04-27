@@ -1,17 +1,22 @@
 {
   "name": "trivia-pwa-nuxt3",
+  "version": "1.0.0",
+  "description": "Trivia UPN - Juego de preguntas",
+  "author": "UPN",
   "private": true,
   "type": "module",
+  "main": "electron/main.cjs",
   "scripts": {
-    "build": "nuxt build",
+    "build": "node scripts/build-nuxt.mjs",
     "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "electron:dev": "concurrently \"nuxt dev\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=development electron .\"",
+    "electron:build": "node scripts/build-electron.mjs"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.9.0",
-    "@vite-pwa/nuxt": "^0.10.6",
     "gsap": "^3.15.0",
     "lodash": "^4.18.1",
     "nuxt": "^3.17.1",
@@ -22,9 +27,30 @@
   "devDependencies": {
     "@types/lodash": "^4.17.24",
     "@types/node": "^25.6.0",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^41.3.0",
+    "electron-builder": "^26.8.1",
     "pug": "^3.0.4",
     "stylus": "^0.64.0",
     "typescript": "^5.8.3",
-    "vite-plugin-pwa": "^0.21.1"
+    "wait-on": "^9.0.5"
+  },
+  "build": {
+    "npmRebuild": false,
+    "forceCodeSigning": false,
+    "appId": "com.triviaupn.app",
+    "productName": "Trivia UPN",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      ".output/**/*",
+      "electron/**/*"
+    ],
+    "win": {
+      "target": ["portable"],
+      "icon": "public/favicon.ico"
+    }
   }
 }
