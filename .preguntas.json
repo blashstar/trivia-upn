@@ -27,7 +27,7 @@
 	{
 		"id": 2,
 		"pregunta": {
-			"texto": "¿CUÁLES DE ESTOS PROGRAMAS PERTENECE A ESTUDIOS DE POSGRADO?"
+			"texto": "¿CUÁLES DE ESTOS PROGRAMAS PERTENECEN A ESTUDIOS DE POSGRADO?"
 		},
 		"opciones": [
 			{
@@ -140,7 +140,7 @@
 			},
 			{
 				"texto": "TOMA DE DECISIONES",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "TODAS LAS ANTERIORES",
@@ -152,12 +152,12 @@
 	{
 		"id": 7,
 		"pregunta": {
-			"texto": "¿ QUÉ MODALIDAD FACILITA ESTUDIAR DESDE CUALQUIER LUGAR MANTENIENDO CLASES EN TIEMPO REAL?"
+			"texto": "¿QUÉ MODALIDAD FACILITA ESTUDIAR DESDE CUALQUIER LUGAR MANTENIENDO CLASES EN TIEMPO REAL?"
 		},
 		"opciones": [
 			{
 				"texto": "PRESENCIAL",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "VIRTUAL",
@@ -211,7 +211,7 @@
 			},
 			{
 				"texto": "CASOS PRÁCTICOS Y APLICACIÓN REAL",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "SOLO MEMORIZACIÓN",
@@ -282,7 +282,7 @@
 		"opciones": [
 			{
 				"texto": "APRENDER ÚNICAMENTE TEORÍA",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "CONECTAR LA TEORÍA CON SITUACIONES REALES DE NEGOCIO",
@@ -315,7 +315,7 @@
 			},
 			{
 				"texto": "CLASES SOLO PRESENCIALES",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "PROGRAMAS SIN PROYECTOS",
@@ -415,7 +415,7 @@
 			},
 			{
 				"texto": "CLASES ÚNICAMENTE TEÓRICAS",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "EVALUACIONES SIN APLICACIÓN PRÁCTICA",
@@ -836,7 +836,7 @@
 			},
 			{
 				"texto": "CLASES EXCLUSIVAMENTE DIURNAS",
-				"imagen": "/img/ico-desicion.svg"
+				"imagen": "/img/ico-decision.svg"
 			},
 			{
 				"texto": "PROGRAMAS SIN PROYECTOS",
