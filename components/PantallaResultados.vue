@@ -1,5 +1,5 @@
 <template lang="pug">
-.vista 
+.vista
   #encabezado
     .logo(@click="volverPortada")
       img(src="/img/logo_negro.png" alt="UPN Posgrado")
@@ -71,4 +71,7 @@ onMounted(() => {
 
 .celeste
   background-color color-celeste
+
+.contenido img
+  max-height: 40vh;
 </style>
