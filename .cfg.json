@@ -1,6 +1,6 @@
 {
 	"preguntasPorJuego": 5,
-	"tiempoPorPregunta": 10,
+	"tiempoPorPregunta": 20,
 	"puntosPorAcierto": 1,
 	"textos":{
 		"portada": {
