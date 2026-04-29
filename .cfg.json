@@ -25,14 +25,16 @@
 				"mensaje": "OBTUVISTE UN RÉCORD PERFECTO",
 				"clase": "lila",
 				"imagen": "/img/celevra.svg",
-				"boton": "GRACIAS POR PARTICIPAR"
+				"boton": "GRACIAS POR PARTICIPAR",
+				"audio": "results"
 			},
 			"0": {
 				"titulo": "¡ESTUVISTE CERCA!",
 				"mensaje": "NO TE DETENGAS SIGUE INTENTANDO",
 				"clase": "celeste",
 				"imagen": "/img/ico-acierto.png",
-				"boton": "GRACIAS POR PARTICIPAR"
+				"boton": "GRACIAS POR PARTICIPAR",
+				"audio": null
 			}
 		}
 	}

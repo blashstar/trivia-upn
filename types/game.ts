@@ -29,6 +29,7 @@ export interface TextosResultado {
   titulo: string
   mensaje: string
   agradecimiento: string
+  audio?: string | null
 }
 
 export interface TextosConfig {
@@ -44,6 +45,7 @@ export interface Config {
   preguntasPorJuego: number
   tiempoPorPregunta: number
   puntosPorAcierto: number
+  puntosParaGanar?: number
   textos: TextosConfig
 }
 

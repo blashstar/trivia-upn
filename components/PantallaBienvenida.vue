@@ -16,14 +16,16 @@ import { gsap } from 'gsap'
 
 const store = useTriviaStore()
 const router = useRouter()
+const audio = useAudioManager()
 const logoRef = ref<HTMLElement | null>(null)
 const titleRef = ref<HTMLElement | null>(null)
-const btnRef = ref<HTMLButtonElement | null>(null)
+const btnRef = ref<HTMLElement | null>(null)
 const photoRef = ref<HTMLElement | null>(null)
 
 const textos = computed(() => store.config?.textos.portada)
 
 function iniciar() {
+  audio.startBackground()
   store.iniciarJuego()
   router.push('/pregunta')
 }

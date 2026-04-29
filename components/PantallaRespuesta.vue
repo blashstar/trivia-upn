@@ -22,6 +22,7 @@ import { gsap } from 'gsap'
 
 const store = useTriviaStore()
 const router = useRouter()
+const audio = useAudioManager()
 const textRef = ref<HTMLElement | null>(null)
 const contentRef = ref<HTMLElement | null>(null)
 const btnRef = ref<HTMLButtonElement | null>(null)
@@ -48,6 +49,13 @@ function volverPortada() {
 
 // Animate entrance
 onMounted(() => {
+  // Play correct/incorrect sound based on answer result
+  if (correcta.value) {
+    audio.play('correct')
+  } else {
+    audio.play('incorrect')
+  }
+
   gsap.from(textRef.value, {
     opacity: 0,
     y: -10,

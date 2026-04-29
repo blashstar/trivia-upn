@@ -46,6 +46,19 @@ export const useTriviaStore = defineStore('trivia', () => {
     preguntasJuego.value = shuffle(todasPreguntas.value).slice(0, total)
     indiceActual.value = 0
     respuestasUsuario.value = []
+
+    if (import.meta.dev) {
+      console.log('=== Preguntas seleccionadas ===')
+      preguntasJuego.value.forEach((p, i) => {
+        console.log(`${i + 1}. ${p.pregunta.texto}`)
+        p.opciones.forEach((op, j) => {
+          const marca = j === p.correcta ? '✓' : ' '
+          console.log(`   [${marca}] ${op.texto}`)
+        })
+      })
+      console.log('=============================')
+    }
+
     pantalla.value = 'pregunta'
     iniciarTemporizador()
   }
@@ -97,7 +110,8 @@ export const useTriviaStore = defineStore('trivia', () => {
     detenerTemporizador()
     pantalla.value = 'portada'
     indiceActual.value = 0
-    respuestasUsuario.value = []
+    preguntasJuego.value = []
+    ultimaRespuestaCorrecta.value = false
   }
 
   function volverAPortada() {
